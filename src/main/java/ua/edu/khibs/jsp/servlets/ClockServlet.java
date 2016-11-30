@@ -1,4 +1,4 @@
-package ua.edu.khibs.jsp;
+package ua.edu.khibs.jsp.servlets;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

@@ -7,19 +7,25 @@
 
     <display-name>HelloWorld Application</display-name>
 
-    <description>
-
-
-    </description>
-
     <servlet>
         <servlet-name>Clock</servlet-name>
-        <servlet-class>ua.edu.khibs.jsp.ClockServlet</servlet-class>
+        <servlet-class>ua.edu.khibs.jsp.servlets.ClockServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>Hello</servlet-name>
+        <servlet-class>ua.edu.khibs.jsp.servlets.HelloServlet</servlet-class>
+
     </servlet>
 
     <servlet-mapping>
         <servlet-name>Clock</servlet-name>
         <url-pattern>/Clock</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>Hello</servlet-name>
+        <url-pattern>/hello</url-pattern>
     </servlet-mapping>
 
 </web-app>
